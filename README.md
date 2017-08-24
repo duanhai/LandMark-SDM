@@ -5,4 +5,4 @@ https://github.com/RoboPai/sdm
 
 #### 运行起来的效果
 
- <img src="https://github.com/duanhai/LandMark-SDM/blob/master/t.PNG" width = "300" height = "200" alt="预览效果" align=left />
+ <img src="https://github.com/duanhai/LandMark-SDM/blob/master/t.PNG" width = "200" height = "300" alt="预览效果" align=left />
