@@ -10,7 +10,8 @@ https://github.com/RoboPai/sdm
 > How to compile on iOS？
 
 >1.Copy "haar_roboman_ff_alt2.xml" & "roboman-landmark-model.bin" to your iOS Project.
->需要制定对应的路径
+
+    需要指定定对应的路径
 
 ```
     NSString *res = [[NSBundle mainBundle] resourcePath];
@@ -18,7 +19,7 @@ https://github.com/RoboPai/sdm
     std::string mypath =  std::string([modelBinPath UTF8String]);
 ```
 
-两个文件都需要找到对应的路径,集成过程中可以使用打印log或者断点看是否成功调用c++的方法
+    两个文件都需要找到对应的路径,集成过程中可以使用打印log或者断点看是否成功调用c++的方法
 
 
 >2.Add the OpenCV2.framework to you iOS Project, make sure you can easily read camera and show frame with OpenCV.
